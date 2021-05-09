@@ -561,16 +561,21 @@ section .title::after {
 }
 
 .contact button {
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    background-color: #1abc9c;
+    display: inline-block;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 200;
+    border-radius: 6px;
+    border: 2px solid #1abc9c;
+    transition: all 0.3s ease;
 }
 
 .contact button:hover {
-    cursor: pointer;
     color: #1abc9c;
-    background-color: rgb(199, 198, 198);
+    background: none;
 }
 
 
